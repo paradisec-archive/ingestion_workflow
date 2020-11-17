@@ -13,3 +13,6 @@ to us at:
 
 PARADISEC, Sydney Conservatorium of Music, C41, University of Sydney, 2006, Ph: +61 2 9351
 1279, Fax: +61 2 9351 1287
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
