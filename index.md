@@ -122,12 +122,48 @@ When tapes returned, note date in ‘tracking’ field of Item, Archive Informat
 |  CD  |  CD inspector on Audiocube 3  | n/a |
 
 
-
-
-
 ## Ingestion process
 
 ### Wavelab ingestion processes - Sydney Lab (Audio)
+
+* Avoid internet browsing and any activity over the network during digitisation (these activities can cause interference, which may result in digital clips and unwanted errors in the signal), avoid using or turn off mobile phones or other mobile devices, including close wi-fi transmitters, and as a precaution, close any programs other than WaveLab during recording of audio. 
+
+* Reel-to-reel tapes go through Audio1 workstation (where StuderA810 is connected), cassette tapes go through either Audio1 or Audio2 workstations (both fitted with Tascam 122MKII’s cassette tape machines). Other sources, such as vinyl records, are to be connected separately as required and may, depending on how the device is connected, go through either Audio1 or Audio2 ingest stations.
+
+* Open the ‘record’ dialogue box (the button with the red circle at the bottom of the screen) and type in the name and path of the file that you will create. The destination folder will, on either audio machine, be ‘D:/WAV96 ingest’ (shortcut on desktop) followed by the name of the audio file ‘CollID-ItemID.wav’. Relevant subparts of an item are indicated ‘-A’, ‘-B’ for example, and are inserted after the PI and before the extension.
+
+* If digitization is being done from a copy tape (rather than an original), then ‘copy’ needs to be added into the third part of the filename (e.g. ‘AC1-001-A_copy’). This is so that we can avoid having to overwrite DOIs if a later file is produced from the original; the subsequent file can then be added, rather than replacing the ‘copy’ file, and it can be appropriately named (e.g. ‘AC1-001-A_original’).
+
+* If further work will be required on a file, such as splitting it into two separate channels, then the file should take a name that is distinct from the files that will ultimately be produced, to preclude any confusion. For instance, if the files to be archived will eventually be named AW1-001-A.wav and -B.wav and they are two sides of a single ingested recording that will require splitting, then name the file that comprises each of them as AW1-001_ The underscore as opposed to a dash will prevent the file from being erroneously archived. (Using Rif64 file format in Dobbin, we can now overcome our 2GB limit and so splitting of large files is not usually necessary).
+
+* It is a good idea to run the signal for a few seconds and adjust the level on the source selector so that it maxes out at about -100 dB on the record dialogue (the white stickers on the source selector are a rough approximation of good gain levels for the selected source). After a good level is established, return the tape to the beginning and commence recording, leaving at least 5 seconds of silence before the signal begins.
+
+* Adjust the azimuth - this is the angle at which the tape meets the head, and we want to adjust it so we can get the sharpest (closest to original position of record head) possible signal. You will need to have the cover off the tape deck. In the monitoring window, enable Phase scope in WaveLab - you will see a graph in the bottom-right, with clusters of moving points showing as the tape plays; ideally, these should line up along one of the axes. [Cassettes] Take the small flat screwdriver, and tweak the screw on the bottom-left of the cassette playback head slot (not the right screw), while the tape is playing. Use only very small movements – you don’t want to unscrew the screw and lose it in the machine. Listen carefully – you should hear the recording start to become sharper, as well as see the points start to line up more on the graph. Adjust the screw back after use. [R2R] Adjust the azimuth as it plays - use the allen key to turn the screw behind the heads. You should hear the recording get sharper, and see the moving points start to form a straight line in the graph in the monitoring window.
+
+* pay attention to the recording and note any analogue errors, such as pops, hisses, buzzing, microphone bumps. These should be noted in the ‘ingest notes’ in the catalogue. More generally, note the overall quality of the recording — whether it is at all muffled, distorted or good and clean. This information should also go into ‘ingest notes’.
+
+* analyse the file in Wavelab (shortcut: control-Y) (takes about 2 minutes for normal length file) — this generates temporary error markers wherever recording faults are apparent
+
+  * check any errors: if they are analogue errors, make a note of them in ‘ingest notes’; if they are digital errors, re-ingest – file size, waveform, length sample rate might need to be checked and adjusted in Wavelab. Where more serious corruption has occurred, check the most recent backup (there should be one somewhere). Keep regressing in stages until you find a version of the file’s history that is not corrupted. If no such file exists, contact the depositor to establish if the file had been corrupted prior to being received.
+
+* Enter additional metadata into Nabu
+  * Enter dates digitised
+  * Enter name of operator in Operator field
+  * If recorded tape ID mentions date created, tape ID, recordist, or any other info not already in database, fill in relevant fields (check with admin as necessary, if unsure, leave blank)
+
+* if necessary, normalise the file. This should not normally be necessary where premonitoring has taken place and the tapes are in good enough condition to yield a good quality sound level.
+
+* after ingestion finished, trim silence at beginning and end of file, leaving margin of 5 seconds’ silence
+* in the case of stereo reel-to-reel tapes that comprise two simultaneous mono recordings, split the 2 channels
+
+* name the files appropriately (for the time being, leave the raw, unedited files (the ones with underscored names instead of dashed ones) in this folder until a later backup can be made)
+
+* check that mandatory metadata fields (PI, title, date created, country, collector) are in Nabu catalogue, if not, add them. If you are unsure of what information to enter into the catalogue, liaise with Admin
+
+* Before adding files to Nabu, all mac users must ensure they delete any hidden files (they start with a . e.g. ‘.DS_Store’) so they do not cause errors, and also delete them immediately from the ‘Processing Area\forDobbin’ folder if they appear in there during the process of copying files across. To do this all Mac users must switch on viewing of invisible or hidden files. Instructions can be found here: http://www.macworld.co.uk/how-to/macsoftware/ how-show-hidden-files-in-mac-os-x-finder-funter-3520878/
+
+* place files in ‘parapd00470.srv.sydney.edu.au\Processing Area\forDobbin’, this will trigger Nabu to create matching .imp and .id3 xml export files (see below section ‘Dobbin Processes for BWF generation’ for details). Otherwise, if more work will be undertaken at a later time, files should be placed on the server in ‘parapd00470.srv.sydney.edu.au\Processing Area\waitingArea’.
+
 
 ### Dobbin processes for BWF generation (Audio)
 
