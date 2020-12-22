@@ -277,12 +277,14 @@ This suite consists of a purpose-built computer, with a Digital Audio Denmark an
 ## Restore from archive proces (SA)
 
 **Restoring a file on Azoulay, which was modified or created in the last several days:**
+
 >**Note:** If it is one of your files you can restore it, otherwise this action must be performed by the Super User (either Abed Kassis, or Tom Honeyman). You must be able to use a unix shell to do this.
 * Connect to Azoulay by ssh **(ssh username@azoulay.arts.usyd.edu.au)**
 * navigate to the directory to which you want to recover or wind back a file (cd /r0/... etc)
 * run ‘recover -s nsrhost’
 * you should get a ‘recover>‘ prompt.
 * ‘help’ will list available commands. ‘ls’ will list files that you can recover.<br>
+
 >**note:** files older than a month will not be shown. You may need to get an older tape loaded. Abed Kassis (or the ArtsIT server administrator) should handle this process by contacting ICT and getting them to load the correct tape. If you are recovering a file from the backups of ‘Send to Archive’ then the tape number listed in the catalogue is necessary. Note however, that it will probably be easier to recover the file from Store/APAC (see 2 below). ***IMPORTANT: you must monitor the recovery process as it will prompt you if you need to overwrite a file. Leaving your terminal without responding to the prompt will halt the tape robot, and may result in the automatic backups not working.***
 
 **Check PARADISEC repository reports (Admin/PD)**
@@ -328,11 +330,3 @@ when starting the Remote Shooting window, you need to choose the folder that the
 * If taking a lot of photographs of papers of a uniform size, drawing pencil dots on the backing cardboard to line up the paper speeds up the process. Folded-over post-it notes are a good way to stick down curling paper.
 * If you want to make a very small adjustment to the zoom, it is easier to adjust the height of the camera tripod than adjusting the zoom on the computer.
 * A suggestion for making copying books easier: if it were possible to make the automatic page numbering ‘odd’ or ‘even’, then every second page could be copied. This would be useful when photographing books because you could photograph all the left-hand pages and then all the right-hand pages, and you would only have to turn the page while keeping the book in place, rather than having to move it after taking each photograph.
-
-
-
-
-
-
-
-
