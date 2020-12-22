@@ -50,8 +50,34 @@ If in reasonable condition transport to nearest ingestion point, personal transp
 * Transport with inventory of contents
 
 ### Receipt of materials at ingestion point (Admin)
+* Check inventory against contents and contact depositor if any discrepancy
+* Enter date in ‘data received’ field of Nabu
+* Assess whether mould-affected and if so implement appropriate procedure (put in ziplock bags and store in cleaning room)
 
 ### Metadata
+When at all possible, get depositors to enter own metadata in Nabu:
+* User signs up to Nabu, creating a login
+* Admin or PD assigns edit access to user
+  
+Assign Persistent Identifier (PI) – if depositor already has a consistent naming system, use it, or else use numerical symbols for ‘item ID’, e.g. 001
+
+Where depositor cannot enter own metadata, enter records manually or batch import records from a spreadsheet
+
+* for batch import of new records, ensure all metadata is inserted into the PARADISEC basic metadata import spreadsheet located at http://www.paradisec.org.au/downloads.html (only those fields listed in the spreadsheet can be imported, and no changes should be made to fields or
+headings in the spreadsheet, metadata should only be added to existing fields)
+  * open Nabu and click on the Dashboard tab
+  * Click on ‘Upload metadata file’ button
+  * Browse to location of file
+  * Click on ‘Add Collection from Spreadsheet XLS file’
+* for manual entry of new records
+  * create item records (Admin) by adding item IDs and descriptions into the Collection screen
+  * enter all metadata available into appropriate fields of catalogue, ensuring that all compulsory fields (marked with a red asterisk) have been filled
+
+Label all tapes and tape cases to show PI, ensuring that no written information is covered up
+
+Sort all tapes in numerical order in filing cabinet, or in dirty room if mould-affected
+
+When tapes returned, note date in ‘tracking’ field of Item, Archive Information and tick ‘Tapes returned to depositor’ checkbox
 
 ### Photograph tape covers and casings to capture all handwritten metadata
 ### Prepare thapes for ingestion (Audio)
