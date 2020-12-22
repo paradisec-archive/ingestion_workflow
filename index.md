@@ -14,7 +14,7 @@ University of Sydney, 2006 <br>
 Ph: +61 2 9351 1279, Fax: +61 2 9351 1287**
 
 ***Role terms used in this document*** <br>
-**Admin:** Sydney Director (2020: Amanda Harris) **Audio:** Audio Preservation Officer (2020: Nick Fowler-Gilmore) **PD:** Project Director (2020: Nicholas Thieberger) **SA:** Systems Admin (2020: University of Sydney ICT)
+**Admin:** Sydney Director (2020: *Amanda Harris*) **Audio:** Audio Preservation Officer (2020: *Nick Fowler-Gilmore*) **PD:** Project Director (2020: *Nicholas Thieberger*) **SA:** Systems Admin (2020: *University of Sydney ICT*)
 
 
 ## Pre-ingestion (audio tapes)
@@ -110,13 +110,13 @@ When tapes returned, note date in ‘tracking’ field of Item, Archive Informat
 
 |  Format  |  Device  |  Date last tested  |
 |  :---  |  :--- |  :--- |
-|  Casette  | TASCAM 122 Mk II | July 2014  |
+|  Cassette  | TASCAM 122 Mk II | July 2014  |
 |  Mouldy cassette  | Yamaha KX-W32  | July 2014  |
 |  Reel-to-reel 15 ips  | Studer A810  | July 2014  |
 |  Reel-to-reel 7 1/2 ips | Studer A810  | July 2014  |
 |  Reel-to-reel 3 3/4 ips | Studer A810  | July 2014  |
 |  Reel-to-reel 7/8 ips  | No suitable in-house machine | as of October 2015  |
-|  Minidisk  |  Processed in Melbourne | n/a   |
+|  Minidisk  |  Processed at Melbourne | n/a   |
 |  \*.wav files | procesed at Melbourne, ANU or APAC  |  2015  |
 |  DAT  |  Sony PCM 7040  |  July 2014  |
 |  CD  |  CD inspector on Audiocube 3  | n/a |
