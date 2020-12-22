@@ -117,7 +117,7 @@ When tapes returned, note date in ‘tracking’ field of Item, Archive Informat
 |  Reel-to-reel 3 3/4 ips | Studer A810  | July 2014  |
 |  Reel-to-reel 7/8 ips  | No suitable in-house machine | as of October 2015  |
 |  Minidisk  |  Processed at Melbourne | n/a   |
-|  \*.wav files | procesed at Melbourne, ANU or APAC  |  2015  |
+|  \*.wav files | Procesed at Melbourne, ANU or APAC  |  2015  |
 |  DAT  |  Sony PCM 7040  |  July 2014  |
 |  CD  |  CD inspector on Audiocube 3  | n/a |
 
