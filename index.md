@@ -167,9 +167,9 @@ When tapes returned, note date in ‘tracking’ field of Item, Archive Informat
 
 ### Dobbin processes for BWF generation (Audio)
 
-* NABU monitors ‘forDobbin’ directory for .wav files, and when it finds one, it writes out the metadata for the corresponding item – if the item is marked ‘Ready for metadata export’ in the Item’s Admin panel. The exported metadata files are:<br>
-**parapd00470.srv.sydney.edu.au\Processing Area\xml\[PID].imp.xml**
-**parapd00470.srv.sydney.edu.au\Processing Area\id3\[PID].id3.v2_3.xml**
+* NABU monitors ‘forDobbin’ directory for .wav files, and when it finds one, it writes out the metadata for the corresponding item – if the item is marked ‘Ready for metadata export’ in the Item’s Admin panel. The exported metadata files are:
+  * **parapd00470.srv.sydney.edu.au\Processing Area\xml\[PID].imp.xml**
+  * **parapd00470.srv.sydney.edu.au\Processing Area\id3\[PID].id3.v2_3.xml**
 
 * XMLcheck monitors ‘forDobbin’ directory, and if a .wav file exists, it then also checks to see whether both the corresponding .imp.xml and .idv2_xml files exist. If both xml files are in the right directories, it moves the .wav file into the directory ‘processed\fromDobbin’.
 
