@@ -13,7 +13,7 @@ For questions or comments on this document please contact admin@paradisec.org.au
 **PARADISEC <br>
 Sydney Conservatorium of Music, C41 <br>
 University of Sydney, 2006 <br>
-Ph: +61 2 9351 1279, Fax: +61 2 9351 1287
+Ph: +61 2 9351 1279, Fax: +61 2 9351 1287**
 
 ***Role terms used in this document*** <br>
 **Admin:** Sydney Director (2017: Amanda Harris) **Audio:** Audio Preservation Officer (2017: Nick Fowler-Gilmore) **PD:** Project Director (2017: Nicholas Thieberger) **SA:** Systems Admin (2017: University of Sydney ICT)
