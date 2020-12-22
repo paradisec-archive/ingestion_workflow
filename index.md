@@ -2,7 +2,7 @@
 _(Last updated December 2020)_
 
 <p align="center">
-  <img width="500" src="images/presets-video.jpg" alt="Adobe Media Encoder Video Presets">
+  <img width="500" src="images/Reel-BW-gh-page.jpg" alt="PARADISEC-reel-to-reel">
   </p>
   
 This document reflects practices across the Sydney, Melbourne and Canberra units of PARADISEC, the Pacific and Regional Archive for Digital Sources in Endangered Cultures. For further information on PARADISEC please visit our website http://paradisec.org.au. 
