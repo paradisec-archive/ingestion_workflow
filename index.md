@@ -24,7 +24,7 @@ Ph: +61 2 9351 1279, Fax: +61 2 9351 1287**
 ### Assess collection (Admin and PD)
 Assess whether material is suitable for accession (PD in consultation with steering committee). Suitability should consider the following conditions, though materials not meeting these criteria are not necessarily excluded from the collection:
 
-***Rights***
+***Rights*** <br>
 Does the depositor assert ownership of the material?
 * Are the rights in the material clearly specified?
 * Content criteria (assess against policy) –
