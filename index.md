@@ -160,12 +160,28 @@ When tapes returned, note date in ‘tracking’ field of Item, Archive Informat
 
 * check that mandatory metadata fields (PI, title, date created, country, collector) are in Nabu catalogue, if not, add them. If you are unsure of what information to enter into the catalogue, liaise with Admin
 
-* Before adding files to Nabu, all mac users must ensure they delete any hidden files (they start with a . e.g. ‘.DS_Store’) so they do not cause errors, and also delete them immediately from the ‘Processing Area\forDobbin’ folder if they appear in there during the process of copying files across. To do this all Mac users must switch on viewing of invisible or hidden files. Instructions can be found here: http://www.macworld.co.uk/how-to/macsoftware/ how-show-hidden-files-in-mac-os-x-finder-funter-3520878/
+* Before adding files to Nabu, all mac users must ensure they delete any hidden files (they start with a . e.g. ‘.DS_Store’) so they do not cause errors, and also delete them immediately from the ‘Processing Area\forDobbin’ folder if they appear in there during the process of copying files across. To do this all Mac users must switch on viewing of invisible or hidden files. Instructions can be found here: [http://www.macworld.co.uk/how-to/macsoftware/how-show-hidden-files-in-mac-os-x-finder-funter-3520878/](http://www.macworld.co.uk/how-to/macsoftware/how-show-hidden-files-in-mac-os-x-finder-funter-3520878/)
 
-* place files in ‘parapd00470.srv.sydney.edu.au\Processing Area\forDobbin’, this will trigger Nabu to create matching .imp and .id3 xml export files (see below section ‘Dobbin Processes for BWF generation’ for details). Otherwise, if more work will be undertaken at a later time, files should be placed on the server in ‘parapd00470.srv.sydney.edu.au\Processing Area\waitingArea’.
+* place files in **parapd00470.srv.sydney.edu.au\Processing Area\forDobbin**, this will trigger Nabu to create matching .imp and .id3 xml export files (see below section *Dobbin Processes for BWF generation* for details). Otherwise, if more work will be undertaken at a later time, files should be placed on the server in **parapd00470.srv.sydney.edu.au\Processing Area\waitingArea**.
 
 
 ### Dobbin processes for BWF generation (Audio)
+
+* NABU monitors ‘forDobbin’ directory for .wav files, and when it finds one, it writes out the metadata for the corresponding item – if the item is marked ‘Ready for metadata export’ in the Item’s Admin panel. The exported metadata files are:<br>
+**parapd00470.srv.sydney.edu.au\Processing Area\xml\[PID].imp.xml**
+**parapd00470.srv.sydney.edu.au\Processing Area\id3\[PID].id3.v2_3.xml**
+
+* XMLcheck monitors ‘forDobbin’ directory, and if a .wav file exists, it then also checks to see whether both the corresponding .imp.xml and .idv2_xml files exist. If both xml files are in the right directories, it moves the .wav file into the directory ‘processed\fromDobbin’.
+
+* Dobbin monitors ‘forDobbin’ for .wav files. When it finds a .wav file, it begins processing it. To do this it requires the .imp.xml file and the .idv2_xml files to be in the correct locations. Dobbin outputs a sealed BWF file with a .wav suffix and a derivative .mp3 file. Dobbin also produces a .qua file for each of these. These .qua files are generated only after the files have been successfully written to the output directory, which is ‘processed\fromDobbin’.
+
+* BWFhashgenerator monitors the ‘processed\fromDobbin’ directory for .wav files. If it finds one, along with a corresponding .mp3, .wav.qua and .mpqua, then it generates a hashsum for the wav and mp3, and writes them out to a file named [file]-checksum-PDSC_ADMIN.txt, which will contain the checksums for both wav and mp3 It then writes both .wav and .mp3, as well as the checksum .txt file, to ‘toNabu’, from which NABU harvests archive files.
+
+* this process commences once the wav file is in the folder ‘parapd00470.srv.sydney.edu.au\Processing Area\forDobbin’ and the necessary metadata has been entered into the catalogue (see above). Wrapping includes the necessary metadata and digitally seals the file to prevent it being altered
+
+* a backup of the file is kept in ‘parapd00470.srv.sydney.edu.au\Processing Area\processed\forDobbin’. This folder is used as a backup of the raw .wav files before they are processed in Dobbin and uploaded to the archive as bwfs and mp3s. Once we have received a report from Cron <deploy@paradisec> stating the file was SUCCESSFUL in its upload to our catalogue and the file appears in Nabu in its proper format, with relevant matching metadata. Then we can delete our original raw .wav backup copy. If this file generates an ERROR message, then we can refer back to our original .wav backup copy and reprocess.
+
+* A script searches ‘forDobbin’ for any newly added wav files and harvests the file name, size and the audio properties and places a reference to them in the catalogue entry for that item
 
 ### Ingestion of photographic slides
 
