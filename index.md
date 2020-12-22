@@ -88,7 +88,7 @@ When tapes returned, note date in ‘tracking’ field of Item, Archive Informat
 * Include a ruler in the captured image to indicate scale
 * See the Appendix at the end of this document on guidelines for image capture and also the Austehc image capture guidelines in the 2011 PARADISEC Operations Manual for more details
 
-### Prepare thapes for ingestion (Audio)
+### Prepare tapes for ingestion (Audio)
 * Assess tape condition – treat mouldy items according to the below procedure *(wear a mask and latex gloves as protective gear)*
 * Dehumidify in vacuum oven if necessary, with separate batches for mould-affected items
 * If necessary, advice regarding duration of treatment and temperature can be found at [NFSA](http://nfsa.gov.au/) and also within the IASA [TC-04 Guidelines](www.iasaweb.org/tc04/audio-preservation)
@@ -108,7 +108,7 @@ When tapes returned, note date in ‘tracking’ field of Item, Archive Informat
 
 **Information on devices and servicing**
 |  Format  |  Device  |  Date last tested  |
-|  ---  |  --- |  --- |
+|  :---  |  :--- |  :--- |
 |  Casette  | TASCAM 122 Mk II | July 2014  |
 |  Mouldy cassette  | Yamaha KX-W32  | July 2014  |
 |  Reel-toreel 15 ips  | Studer A810  | July 2014  |
