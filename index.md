@@ -125,7 +125,6 @@ When tapes returned, note date in ‘tracking’ field of Item, Archive Informat
 ## Ingestion process
 
 ### Wavelab ingestion processes - Sydney Lab (Audio)
-
 * Avoid internet browsing and any activity over the network during digitisation (these activities can cause interference, which may result in digital clips and unwanted errors in the signal), avoid using or turn off mobile phones or other mobile devices, including close wi-fi transmitters, and as a precaution, close any programs other than WaveLab during recording of audio. 
 
 * Reel-to-reel tapes go through Audio1 workstation (where StuderA810 is connected), cassette tapes go through either Audio1 or Audio2 workstations (both fitted with Tascam 122MKII’s cassette tape machines). Other sources, such as vinyl records, are to be connected separately as required and may, depending on how the device is connected, go through either Audio1 or Audio2 ingest stations.
@@ -278,9 +277,7 @@ This suite consists of a purpose-built computer, with a Digital Audio Denmark an
 ## Restore from archive proces (SA)
 
 **Restoring a file on Azoulay, which was modified or created in the last several days:**
-
 >**Note:** If it is one of your files you can restore it, otherwise this action must be performed by the Super User (either Abed Kassis, or Tom Honeyman). You must be able to use a unix shell to do this.
-
 * Connect to Azoulay by ssh **(ssh username@azoulay.arts.usyd.edu.au)**
 * navigate to the directory to which you want to recover or wind back a file (cd /r0/... etc)
 * run ‘recover -s nsrhost’
@@ -304,7 +301,7 @@ individual collections list the items available as part of that collection. A la
 **Rotating the photographs**<br>
 If the ‘Rotation’ button is greyed out and not working in the Remote Shooting and Image Browser windows, then the camera might have the ‘Auto Rotate’ function on. This function automatically rotates the image according to which way the camera is being held (ie. Portrait or landscape), this is useful if the camera is vertical, but not useful if it is being held horizontally.
 
-To turn off the Auto Rotate function on the camera:
+***To turn off the Auto Rotate function on the camera:***
 * On the camera, press the menu button
 * In the menu, use the arrow keys to scroll down to Auto Rotate
 * Press the left/right arrows to change it to ‘off’
@@ -320,11 +317,9 @@ when starting the Remote Shooting window, you need to choose the folder that the
 * ***Photo Effect*** - changing the Photo Effect from ‘Effect Off’ to ‘Vivid’ makes light pencil and faded ink stand out better.
 * ***Focusing Point*** - the ‘Manual Selection – Center’ function means the process of taking the photograph and uploading it to the computer is slightly quicker because the camera does not refocus for each picture, because it automatically focuses on the centre of the image. However, if there is nothing in the centre of the page (for example the text is only at the top of the page, or in a column down the side of the page) or the writing is very pale, the image will be out of focus and it is better to change the Focusing Point to ‘Automatic Selection’. Generally, leaving it on ‘General Selection’ lessens the chance of a fuzzy picture because the camera re-focuses for each photograph.
 
-**Macro**
-if the ‘Automatic Selection’ focusing point is on and the image is still fuzzy, then change the Macro to ‘On’.
+* **Macro** - if the ‘Automatic Selection’ focusing point is on and the image is still fuzzy, then change the Macro to ‘On’.
 
-**Lighting**
-having the lighting rig further away from the page makes the light more even. A higher lighting rig will also make it less likely to appear in large images where the camera has zoomed out, so it will not have to be moved very often. If the paper is shiny or there is pencil which reflects the light, putting paper light shades on the light bulbs or turning them off altogether (if there is adequate lighting from the room light or a window) reduces the reflection.
+* **Lighting** - having the lighting rig further away from the page makes the light more even. A higher lighting rig will also make it less likely to appear in large images where the camera has zoomed out, so it will not have to be moved very often. If the paper is shiny or there is pencil which reflects the light, putting paper light shades on the light bulbs or turning them off altogether (if there is adequate lighting from the room light or a window) reduces the reflection.
 
 **General advice**
 * You can also release the shutter button by pressing the spacebar.
