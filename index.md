@@ -5,9 +5,9 @@ _(Last updated December 2020)_
   <img width="500" src="images/Reel-BW-gh-page.jpg" alt="PARADISEC-reel-to-reel">
   </p>
   
-This document was last updated 22 December 2020. Previous iterations of our Operations Manual (prior to implementation of the Nabu catalogue) are available from the downloads section of our website http://www.paradisec.org.au/downloads.html.
+This document was last updated 22 December 2020. Previous iterations of our Operations Manual (prior to implementation of the Nabu catalogue) are available from the downloads section of our website [https://www.paradisec.org.au/](http://www.paradisec.org.au/downloads.html).
 
-For questions or comments on this document please contact admin@paradisec.org.au, or write to us at:<br><br>
+For questions or comments on this document please contact us at [admin@paradisec.org.au](mailto:admin@paradisec.org.au), or write to us at:<br><br>
 **PARADISEC <br>
 Sydney Conservatorium of Music, C41 <br>
 University of Sydney, 2006 <br>
