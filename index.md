@@ -41,6 +41,14 @@ If collection assessed as suitable, create a collection record in Nabu Assess ta
 
 ### Transportation
 
+If the recordings are in bad condition (e.g. mould, rare formats, tape visibly damaged) send to Sydney (contact Admin). Transport any mouldy items in separate ziplock bags and do not pack with non-mouldy items
+
+If in reasonable condition transport to nearest ingestion point, personal transport is preferable; transport in hand luggage if flying, if necessary use registered courier
+
+* Packing – make sure end fastened on reel tape, pack tightly, wrap in bubble wrap
+* Ensure against unnecessary shocks during transport
+* Transport with inventory of contents
+
 ### Receipt of materials at ingestion point (Admin)
 
 ### Metadata
