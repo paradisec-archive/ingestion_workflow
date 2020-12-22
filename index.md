@@ -25,7 +25,7 @@ Assess whether material is suitable for accession (PD in consultation with steer
 ***Rights*** <br>
 Does the depositor assert ownership of the material?
 * Are the rights in the material clearly specified?
-* Content criteria (assess against policy) –
+* Content criteria (assess against policy)
   * is the material unique?
   * is the country and language of the material known, and in the core area (non-Australian)?
   * is there an alternative place for deposit of the recording?
@@ -107,18 +107,19 @@ When tapes returned, note date in ‘tracking’ field of Item, Archive Informat
 * If mouldy, bag up separately, to avoid cross-contamination, shelve in PARADISEC's *Dirty Room* and minimise time in *Ingestion Room*, replay on designated *dirty* cassette machine
 
 **Information on devices and servicing**
+
 |  Format  |  Device  |  Date last tested  |
 |  :---  |  :--- |  :--- |
 |  Casette  | TASCAM 122 Mk II | July 2014  |
 |  Mouldy cassette  | Yamaha KX-W32  | July 2014  |
-|  Reel-toreel 15 ips  | Studer A810  | July 2014  |
+|  Reel-to-reel 15 ips  | Studer A810  | July 2014  |
 |  Reel-to-reel 7 1/2 ips | Studer A810  | July 2014  |
 |  Reel-to-reel 3 3/4 ips | Studer A810  | July 2014  |
 |  Reel-to-reel 7/8 ips  | No suitable in-house machine | as of October 2015  |
-|  Minidisk  |  Processed in Melbourne – Minidisk Transfer Editor |  |
-|  `*.wav files` | via network from Melbourne, ANU or APAC  |  2015  |
+|  Minidisk  |  Processed in Melbourne | n/a   |
+|  \*.wav files | procesed at Melbourne, ANU or APAC  |  2015  |
 |  DAT  |  Sony PCM 7040  |  July 2014  |
-|  CD  |  CD inspector on Audiocube 3  |  |
+|  CD  |  CD inspector on Audiocube 3  | n/a |
 
 
 
