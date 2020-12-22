@@ -231,10 +231,11 @@ This suite consists of a purpose-built computer, with a Digital Audio Denmark an
 * Hit record button in WaveLab. If it flashed red with ‘waiting’, hit again in order to record. Wait ~5 secs then hit ‘play’ on tape player.
 
 **While playing**
-* Take audio notes (focus upon documenting state of original recording).
-  * Whether mono or stereo
-  * Which channel (left or right)
-  * Any clipping in original
+Take audio notes:
+* document state of original the recording
+* Whether mono or stereo
+* Which channel (left or right)
+* Any clipping in original
   
 **When file finished**
 * Stop tape first then stop recording ~ 5 secs after (good to leave a bit of space at start and end) 
