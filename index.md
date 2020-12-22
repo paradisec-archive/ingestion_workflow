@@ -204,13 +204,13 @@ This suite consists of a purpose-built computer, with a Digital Audio Denmark an
 * Turn on computer – bottom one
 * Log in
 
-Metadata (done on a different computer that has an internet connection)
+**Metadata (done on a different computer that has an internet connection)**
 * Log on to catalog.paradisec.org.au
 * Dashboard will show collections you are already working on, for view or edit
 * Can search by collection ID in ‘Collections’ tab
 * Enter all possible metadata, including what the source media are, who is the operator (i.e. you), and add audio notes (below)
 
-Setting up for recording
+**Setting up for recording**
 * Open WaveLab 8.5 (click yes to run)
 * Click record button to open recording dialogue box
 * Enter folder and filename (have a folder for your work and subfolders of collection within that)
@@ -218,7 +218,7 @@ Setting up for recording
 * Select 24-96 sampling rate in the dialogue box
 * Auto-stop after given duration – check if this is set (usually set to ~45 mins for one side of a cassette, but minidiscs and some tapes longer)
 
-To record – cassette tapes
+**To record – cassette tapes**
 * Can lock the tape by pushing in the plastic lugs
 * Check condition of tape, if there is anything strange about the way the tape runs through the mechanism, or if there is evidence of mould on the edge of the  spool, or if bits of the media are falling off (‘shedding’) then refer it to PD Nick Thieberger.
 * Settings are Jack, SP/DIF, Analog In, 96kHz 24bit, Int sync.
@@ -226,20 +226,18 @@ To record – cassette tapes
 * Have output set to around 7 to start
 * Clean heads and capstans of playback machine with isopropyl alcohol and cotton tips
 * Fast forward once, right through both sides of recording, but be careful towards end of tape – tape can come loose with sudden stop. Can use the separate tape deck for this while digitising other tapes.
-
 * Play a bit to check levels. Can adjust output up or down as needed. Levels can be monitored on converter and in WaveLab. Around -12dB is good – not into the red.
 * If monitoring is not showing up in WaveLab, go to Options > Preferences > Audio device. This should be set to MME-WDM SPDIF/ADAT (1+2) (RME Babyface) for both playback device AND recording device.
-
 * Adjust the azimuth - this is the angle at which the tape meets the head, and we want to adjust it so we can get the sharpest possible recording. You will need to have the cover off the tape deck. In the monitoring window in WaveLab, you will see a graph in the bottomright, with clusters of moving points showing as the tape plays. Ideally, these should line up along one of the axes. Take the small flat screwdriver, and tweak the screw on the bottomleft of the cassette slot (not the right screw), while the tape is playing. Use only very small movements – you don’t want to unscrew the screw and lose it in the machine. Listen carefully – you should hear the recording start to become sharper, as well as see the points start to line up more on the graph. Adjust the screw back after use.
 * Hit record button in WaveLab. If it flashed red with ‘waiting’, hit again in order to record. Wait ~5 secs then hit ‘play’ on tape player.
 
-While playing
+**While playing**
 * Take audio notes (focus upon documenting state of original recording).
   * Whether mono or stereo
   * Which channel (left or right)
   * Any clipping in original
   
-When file finished
+**When file finished**
 * Stop tape first then stop recording ~ 5 secs after (good to leave a bit of space at start and end) 
 * Cut out any silence in file – click and drag to select (both channels), then hit delete (or right-click, ‘select from cursor to end of file’)
 * File > Save
@@ -247,7 +245,7 @@ When file finished
 * When tape is done, make sure to insert digitisation slip with date, name, item number
 * Remember to adjust the azimuth back to original position so the screw doesn’t come out when adjusting it for the next tape.
 
-To record – minidiscs
+**To record – minidiscs**
 * Need to connect to fibre optic cable to the audio interface. It’s the one labelled ‘MD Out’. Take out the middle of the three cables on the interface and plug the minidisc cable in there.
 * Settings are Jack, Optical, Digital In, 96kHz 24bit, Int sync.
 * In WaveLab sampling rate option is 24-96
@@ -255,10 +253,10 @@ To record – minidiscs
 * May need to close and re-open the recording dialogue after changing settings to refresh
 * Hit record, then after ~ 5 secs hit play on MD player. Volume can’t be adjusted so digitise as is but keep audio notes.
 
-To record – DAT tapes
+**To record – DAT tapes**
 * [Unlikely that we will have to deal with DAT anymore] 
 
-To record – reel-to-reel
+**To record – reel-to-reel**
 * Set machine to ¼ inch, rest of the settings are same as for cassettes (96kHz 24bit)
 
 * Switch on reel-to-reel machine - this is the black switch at the back of the lower part of the machine. Clean the heads before loading a reel.
@@ -279,7 +277,8 @@ To record – reel-to-reel
 
 ## Restore from archive proces (SA)
 
-Restoring a file on Azoulay, which was modified or created in the last several days:
+**Restoring a file on Azoulay, which was modified or created in the last several days:**
+
 >**Note:** If it is one of your files you can restore it, otherwise this action must be performed by the Super User (either Abed Kassis, or Tom Honeyman). You must be able to use a unix shell to do this.
 
 * Connect to Azoulay by ssh **(ssh username@azoulay.arts.usyd.edu.au)**
@@ -287,17 +286,55 @@ Restoring a file on Azoulay, which was modified or created in the last several d
 * run ‘recover -s nsrhost’
 * you should get a ‘recover>‘ prompt.
 * ‘help’ will list available commands. ‘ls’ will list files that you can recover.
-> **note:** files older than a month will not be shown. You may need to get an older tape loaded. Abed Kassis (or the ArtsIT server administrator) should handle this process by contacting ICT and getting them to load the correct tape. If you are recovering a file from the backups of ‘Send to Archive’ then the tape number listed in the catalogue is necessary. Note however, that it will probably be easier to recover the file from Store/APAC (see 2 below). IMPORTANT: you must monitor the recovery process as it will prompt you if you need to overwrite a file. Leaving your terminal without responding to the prompt will halt the tape robot, and may result in the automatic backups not working.
+> **note:** files older than a month will not be shown. You may need to get an older tape loaded. Abed Kassis (or the ArtsIT server administrator) should handle this process by contacting ICT and getting them to load the correct tape. If you are recovering a file from the backups of ‘Send to Archive’ then the tape number listed in the catalogue is necessary. Note however, that it will probably be easier to recover the file from Store/APAC (see 2 below). ***IMPORTANT: you must monitor the recovery process as it will prompt you if you need to overwrite a file. Leaving your terminal without responding to the prompt will halt the tape robot, and may result in the automatic backups not working.***
 
-### Check PARADISEC repository reports (Admin/PD)
-
+**Check PARADISEC repository reports (Admin/PD)**
 * check PARADISEC archiving report emailed weekly to all project members from **deploy@paradisec.intersect.org.au**
 * identify any anomalies and rectify, reprocessing relevant files as necessary.
 
-### Access to Archived files in Paradisec repository
+**Access to Archived files in Paradisec repository**
 individual collections list the items available as part of that collection. A label appears next to each item indicating whether access is open or closed. Users can click through to the individual files which can be streamed or downloaded directly from the catalogue. If an item has restricted conditions, the depositor may need to be contacted to request permission.
 
 ## Appendix: Notes on image capture equipment
+* Canon Powershot G6
+* Powerbook G4
+* Camera tripod
+* Tungsten light bulbs
+
+**Rotating the photographs**<br>
+If the ‘Rotation’ button is greyed out and not working in the Remote Shooting and Image Browser windows, then the camera might have the ‘Auto Rotate’ function on. This function automatically rotates the image according to which way the camera is being held (ie. Portrait or landscape), this is useful if the camera is vertical, but not useful if it is being held horizontally.
+
+To turn off the Auto Rotate function on the camera:
+* On the camera, press the menu button
+* In the menu, use the arrow keys to scroll down to Auto Rotate
+* Press the left/right arrows to change it to ‘off’
+* If the Auto Rotate function is off, you can rotate images in the remote capture window before you take the photograph and it will also change the orientation of the view finder. It is also possible to rotate the photograph afterwards in the Image Browser window by selecting the photograph and selecting ‘rotate’ in the ‘edit’ menu.
+
+**Folders**<br>
+when starting the Remote Shooting window, you need to choose the folder that the photographs go into, the contents of which are displayed in the image browser. Put the photographs into a temporary folder (named eg. InProgess) first, and then, in ‘Finder’, to move the photographs to their proper folder afterwards. There are a few reasons for this:
+* it is quicker to move images in ‘Finder’ after they have been taken than to change what folder they initially go in when the photo is taken.
+* the image browser slows down if it has too many (more than about 100) images to display, so if you are dealing with a large amount of photographs, you can transfer them to their proper folder progressively.
+* if you accidentally double click ‘send to trash’ it will not only delete all the photographs in the displayed in the Image Browser, but any other sub-folders that were also in the folder the photographs were saved in. It is all recoverable from the Trash, but is it still better to have a folder that has all its contents on display.
+
+**Shooting Settings in the Remote Capture Window**<br>
+* ***Photo Effect*** - changing the Photo Effect from ‘Effect Off’ to ‘Vivid’ makes light pencil and faded ink stand out better.
+* ***Focusing Point*** - the ‘Manual Selection – Center’ function means the process of taking the photograph and uploading it to the computer is slightly quicker because the camera does not refocus for each picture, because it automatically focuses on the centre of the image. However, if there is nothing in the centre of the page (for example the text is only at the top of the page, or in a column down the side of the page) or the writing is very pale, the image will be out of focus and it is better to change the Focusing Point to ‘Automatic Selection’. Generally, leaving it on ‘General Selection’ lessens the chance of a fuzzy picture because the camera re-focuses for each photograph.
+
+**Macro**
+if the ‘Automatic Selection’ focusing point is on and the image is still fuzzy, then change the Macro to ‘On’.
+
+**Lighting**
+having the lighting rig further away from the page makes the light more even. A higher lighting rig will also make it less likely to appear in large images where the camera has zoomed out, so it will not have to be moved very often. If the paper is shiny or there is pencil which reflects the light, putting paper light shades on the light bulbs or turning them off altogether (if there is adequate lighting from the room light or a window) reduces the reflection.
+
+**General advice**
+* You can also release the shutter button by pressing the spacebar.
+* You can change the name of an individual in the Image Browser window by double clicking on it.
+*  For images with little contrast (eg. Light pencil, faded ink), turning off the Tungsten light bulbs and, if there is daylight from a window, the room lights, as well as changing the Photo Effect in the Shooting Settings to ‘Vivid’ is a good way to get a clearer image.
+* If taking a lot of photographs of papers of a uniform size, drawing pencil dots on the backing cardboard to line up the paper speeds up the process. Folded-over post-it notes are a good way to stick down curling paper.
+* If you want to make a very small adjustment to the zoom, it is easier to adjust the height of the camera tripod than adjusting the zoom on the computer.
+* A suggestion for making copying books easier: if it were possible to make the automatic page numbering ‘odd’ or ‘even’, then every second page could be copied. This would be useful when photographing books because you could photograph all the left-hand pages and then all the right-hand pages, and you would only have to turn the page while keeping the book in place, rather than having to move it after taking each photograph.
+
+
 
 
 
