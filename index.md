@@ -9,11 +9,13 @@ This document reflects practices across the Sydney, Melbourne and Canberra units
   
 This document was last updated 15 February 2017. Previous iterations of our Operations Manual (prior to implementation of the Nabu catalogue) are available from the downloads section of our website http://www.paradisec.org.au/downloads.html.
 
-For questions or comments on this document please contact admin@paradisec.org.au, or write to us at:
-PARADISEC, Sydney Conservatorium of Music, C41, University of Sydney, 2006, Ph: +61 2 9351
-1279, Fax: +61 2 9351 1287
+For questions or comments on this document please contact admin@paradisec.org.au, or write to us at:<br>
+**PARADISEC <br>
+Sydney Conservatorium of Music, C41 <br>
+University of Sydney, 2006 <br>
+Ph: +61 2 9351 1279, Fax: +61 2 9351 1287
 
-***Role terms used in this document***
+***Role terms used in this document*** <br>
 **Admin:** Sydney Director (2017: Amanda Harris) **Audio:** Audio Preservation Officer (2017: Nick Fowler-Gilmore) **PD:** Project Director (2017: Nicholas Thieberger) **SA:** Systems Admin (2017: University of Sydney ICT)
 
 
@@ -34,7 +36,7 @@ Does the depositor assert ownership of the material?
   * institutional affiliation – give preference to consortium members
   * ease of integration into our systems
     * is data in a format we can handle (i.e. cassette, 1/4 inch reels)?
-          * if not, direct prospective depositor to suitable alternative facility
+    * if not, direct prospective depositor to suitable alternative facility
   * consistency and adequacy of any metadata
   
 If collection assessed as suitable, create a collection record in Nabu Assess tape condition and prepare material for transportation accordingly
