@@ -185,11 +185,117 @@ When tapes returned, note date in ‘tracking’ field of Item, Archive Informat
 
 ### Ingestion of photographic slides
 
+The process for ingesting slides and digital image capture is documented in Paradisec Operations Manual 2011, and the appended Austehc manual [http://www.paradisec.org.au/downloads.html](http://www.paradisec.org.au/downloads.html). Contact [PARADISEC staff](mailto:admin@paradisec.org.au) for further details.
+
 ### Digital text
+
+* formatted documents, e.g. in MS Word format, need to be saved as .rtf and .pdf, .docx files can also be archived. Check each file for character encodings. Use doxillion for mass file conversions.
+
+* if the file is of a specific type (e.g. a Toolbox file) then it needs to have sufficient documentation to make it readable (e.g. it may need .typ files accompany it).
+
+* put the files into the ‘toNabu’ folder where a script will pick them up to send to Nabu
 
 ## University of Melbourne ingestion unit
 
+This suite consists of a purpose-built computer, with a Digital Audio Denmark analogue to digital converter, a cassette player, minidisk player and reel-to-reel player. The computer has no internet connection (to prevent digital noise in the digitisation) so a hard disk is used to transport the files to another computer for transfer.
+
+* Enter planned work times in PARADISEC google calendar in advance
+* Enter details of tapes completed into the google spreadsheet
+* Turn on computer – bottom one
+* Log in
+
+Metadata (done on a different computer that has an internet connection)
+* Log on to catalog.paradisec.org.au
+* Dashboard will show collections you are already working on, for view or edit
+* Can search by collection ID in ‘Collections’ tab
+* Enter all possible metadata, including what the source media are, who is the operator (i.e. you), and add audio notes (below)
+
+Setting up for recording
+* Open WaveLab 8.5 (click yes to run)
+* Click record button to open recording dialogue box
+* Enter folder and filename (have a folder for your work and subfolders of collection within that)
+* File name format is XX1-001-A (collection, tape number, side A or B if needed)
+* Select 24-96 sampling rate in the dialogue box
+* Auto-stop after given duration – check if this is set (usually set to ~45 mins for one side of a cassette, but minidiscs and some tapes longer)
+
+To record – cassette tapes
+* Can lock the tape by pushing in the plastic lugs
+* Check condition of tape, if there is anything strange about the way the tape runs through the mechanism, or if there is evidence of mould on the edge of the  spool, or if bits of the media are falling off (‘shedding’) then refer it to PD Nick Thieberger.
+* Settings are Jack, SP/DIF, Analog In, 96kHz 24bit, Int sync.
+* Make sure the leads to the Studer (reel-to-reel) are unplugged from the back of the Digital Audio Denmark unit.
+* Have output set to around 7 to start
+* Clean heads and capstans of playback machine with isopropyl alcohol and cotton tips
+* Fast forward once, right through both sides of recording, but be careful towards end of tape – tape can come loose with sudden stop. Can use the separate tape deck for this while digitising other tapes.
+
+* Play a bit to check levels. Can adjust output up or down as needed. Levels can be monitored on converter and in WaveLab. Around -12dB is good – not into the red.
+* If monitoring is not showing up in WaveLab, go to Options > Preferences > Audio device. This should be set to MME-WDM SPDIF/ADAT (1+2) (RME Babyface) for both playback device AND recording device.
+
+* Adjust the azimuth - this is the angle at which the tape meets the head, and we want to adjust it so we can get the sharpest possible recording. You will need to have the cover off the tape deck. In the monitoring window in WaveLab, you will see a graph in the bottomright, with clusters of moving points showing as the tape plays. Ideally, these should line up along one of the axes. Take the small flat screwdriver, and tweak the screw on the bottomleft of the cassette slot (not the right screw), while the tape is playing. Use only very small movements – you don’t want to unscrew the screw and lose it in the machine. Listen carefully – you should hear the recording start to become sharper, as well as see the points start to line up more on the graph. Adjust the screw back after use.
+* Hit record button in WaveLab. If it flashed red with ‘waiting’, hit again in order to record. Wait ~5 secs then hit ‘play’ on tape player.
+
+While playing
+* Take audio notes (focus upon documenting state of original recording).
+  * Whether mono or stereo
+  * Which channel (left or right)
+  * Any clipping in original
+  
+When file finished
+* Stop tape first then stop recording ~ 5 secs after (good to leave a bit of space at start and end) 
+* Cut out any silence in file – click and drag to select (both channels), then hit delete (or right-click, ‘select from cursor to end of file’)
+* File > Save
+* Flip cassettes to do other side. Note that tape player sometimes automatically reverses direction, make sure it is facing > if you have turned tape yourself.
+* When tape is done, make sure to insert digitisation slip with date, name, item number
+* Remember to adjust the azimuth back to original position so the screw doesn’t come out when adjusting it for the next tape.
+
+To record – minidiscs
+* Need to connect to fibre optic cable to the audio interface. It’s the one labelled ‘MD Out’. Take out the middle of the three cables on the interface and plug the minidisc cable in there.
+* Settings are Jack, Optical, Digital In, 96kHz 24bit, Int sync.
+* In WaveLab sampling rate option is 24-96
+* Check the audio device preferences to make sure correct device is selected for both playback and recording (as per tapes).
+* May need to close and re-open the recording dialogue after changing settings to refresh
+* Hit record, then after ~ 5 secs hit play on MD player. Volume can’t be adjusted so digitise as is but keep audio notes.
+
+To record – DAT tapes
+* [Unlikely that we will have to deal with DAT anymore] 
+
+To record – reel-to-reel
+* Set machine to ¼ inch, rest of the settings are same as for cassettes (96kHz 24bit)
+
+* Switch on reel-to-reel machine - this is the black switch at the back of the lower part of the machine. Clean the heads before loading a reel.
+
+* Put the reel on the left spindle. You need to line up the two metal parts of the spindle to slide it on. Thread the leader tape across the heads, with the tape coming off the reel counter-clockwise and being threaded under the first guide wheel, over the next, then past the heads. If the reel has no leader tape, USE GLOVES to handle the tape and add some new leader tape using the splicing tape and block. Thread it onto an empty take-up reel on the right and wind on a little bit. Lock the supply reel and take-up reel in place by lifting the top part of the metal spindle up and turning it.
+
+* Fast forward once through the tape onto supply reel and swap the reels over and re-spool. Press play to listen to the audio. Speed should be set to match that of the reel if possible - lowest setting on machine is 3 ¾, so if tape has been recorded at a lower speed like 1 ⅞, record at 3 ¾ and fix in post-processing.
+
+* Adjust the azimuth as it plays - use the Allen key to turn the top right hand side screw on the play head. You should hear the recording get sharper, and see the moving points start to form a straight line in the graph in the monitoring window.
+
+* Adjust the volume - on the top of the machine, there are two pairs of knobs labelled ‘record level’ and ‘rep/sync level’. The tape may have a mono recording on each side, in which case you will see information being captured in each channel, but these tracks will be from separate recording sessions. If this is the case, it is the RIGHT CHANNEL you want to look at in the monitoring window. To adjust the levels for this, you want to adjust the rightmost of the first pair of knobs, or the first ‘rep/sync level’. As for cassettes, around 7 should be ok, but audio levels may vary quite a bit. If the tape is a stereo recording - i.e. audio was recording to both channels simultaneously - you will need to check that the levels are ok in both the left and right channel.
+
+* Once you have finished one side, you need to check if there is a Side B. If the tape has two mono tracks, you will have been able to see this while recording the first side, but the audio in the left channel will have been recorded in reverse and needs to be discarded and done separately. Take off the empty reel, and remove now-full take-up reel. Flip it over and load onto the left spindle, and then put your empty original reel on the right, and follow the same process.
+
+* Once you have recorded each mono side like this, save just the right channel from each track by going to File > Save Special (Wave) >: Save Right Channel As. This will save just the right channel as a mono file.
+
+* Save one as Side A and one as Side B * If the reel has a stereo recording on each side, there is no need to do this - just save each stereo file as Side A and B.
+
 ## Restore from archive proces (SA)
+
+Restoring a file on Azoulay, which was modified or created in the last several days:
+>**Note:** If it is one of your files you can restore it, otherwise this action must be performed by the Super User (either Abed Kassis, or Tom Honeyman). You must be able to use a unix shell to do this.
+
+* Connect to Azoulay by ssh **(ssh username@azoulay.arts.usyd.edu.au)**
+* navigate to the directory to which you want to recover or wind back a file (cd /r0/... etc)
+* run ‘recover -s nsrhost’
+* you should get a ‘recover>‘ prompt.
+* ‘help’ will list available commands. ‘ls’ will list files that you can recover.
+> **note:** files older than a month will not be shown. You may need to get an older tape loaded. Abed Kassis (or the ArtsIT server administrator) should handle this process by contacting ICT and getting them to load the correct tape. If you are recovering a file from the backups of ‘Send to Archive’ then the tape number listed in the catalogue is necessary. Note however, that it will probably be easier to recover the file from Store/APAC (see 2 below). IMPORTANT: you must monitor the recovery process as it will prompt you if you need to overwrite a file. Leaving your terminal without responding to the prompt will halt the tape robot, and may result in the automatic backups not working.
+
+### Check PARADISEC repository reports (Admin/PD)
+
+* check PARADISEC archiving report emailed weekly to all project members from **deploy@paradisec.intersect.org.au**
+* identify any anomalies and rectify, reprocessing relevant files as necessary.
+
+### Access to Archived files in Paradisec repository
+individual collections list the items available as part of that collection. A label appears next to each item indicating whether access is open or closed. Users can click through to the individual files which can be streamed or downloaded directly from the catalogue. If an item has restricted conditions, the depositor may need to be contacted to request permission.
 
 ## Appendix: Notes on image capture equipment
 
