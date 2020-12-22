@@ -5,18 +5,16 @@ _(Last updated December 2020)_
   <img width="500" src="images/Reel-BW-gh-page.jpg" alt="PARADISEC-reel-to-reel">
   </p>
   
-This document reflects practices across the Sydney, Melbourne and Canberra units of PARADISEC, the Pacific and Regional Archive for Digital Sources in Endangered Cultures. For further information on PARADISEC please visit our website http://paradisec.org.au. 
-  
-This document was last updated 15 February 2017. Previous iterations of our Operations Manual (prior to implementation of the Nabu catalogue) are available from the downloads section of our website http://www.paradisec.org.au/downloads.html.
+This document was last updated 22 December 2020. Previous iterations of our Operations Manual (prior to implementation of the Nabu catalogue) are available from the downloads section of our website http://www.paradisec.org.au/downloads.html.
 
-For questions or comments on this document please contact admin@paradisec.org.au, or write to us at:<br>
+For questions or comments on this document please contact admin@paradisec.org.au, or write to us at:<br><br>
 **PARADISEC <br>
 Sydney Conservatorium of Music, C41 <br>
 University of Sydney, 2006 <br>
 Ph: +61 2 9351 1279, Fax: +61 2 9351 1287**
 
 ***Role terms used in this document*** <br>
-**Admin:** Sydney Director (2017: Amanda Harris) **Audio:** Audio Preservation Officer (2017: Nick Fowler-Gilmore) **PD:** Project Director (2017: Nicholas Thieberger) **SA:** Systems Admin (2017: University of Sydney ICT)
+**Admin:** Sydney Director (2020: Amanda Harris) **Audio:** Audio Preservation Officer (2020: Nick Fowler-Gilmore) **PD:** Project Director (2020: Nicholas Thieberger) **SA:** Systems Admin (2020: University of Sydney ICT)
 
 
 ## Pre-ingestion (audio tapes)
