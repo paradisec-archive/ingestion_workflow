@@ -55,7 +55,7 @@ If in reasonable condition transport to nearest ingestion point, personal transp
 * Assess whether mould-affected and if so implement appropriate procedure (put in ziplock bags and store in cleaning room)
 
 ### Metadata
-When at all possible, get depositors to enter own metadata in Nabu:
+Where possible get depositors to enter own metadata in Nabu:
 * User signs up to Nabu, creating a login
 * Admin or PD assigns edit access to user
   
@@ -63,15 +63,16 @@ Assign Persistent Identifier (PI) – if depositor already has a consistent nami
 
 Where depositor cannot enter own metadata, enter records manually or batch import records from a spreadsheet
 
-* for batch import of new records, ensure all metadata is inserted into the PARADISEC basic metadata import spreadsheet located at http://www.paradisec.org.au/downloads.html (only those fields listed in the spreadsheet can be imported, and no changes should be made to fields or
+* **For batch import of new records:** ensure all metadata is inserted into the PARADISEC basic metadata import spreadsheet located at http://www.paradisec.org.au/downloads.html (only those fields listed in the spreadsheet can be imported, and no changes should be made to fields or
 headings in the spreadsheet, metadata should only be added to existing fields)
-  * open Nabu and click on the Dashboard tab
+  * Open Nabu and click on the Dashboard tab
   * Click on ‘Upload metadata file’ button
   * Browse to location of file
   * Click on ‘Add Collection from Spreadsheet XLS file’
-* for manual entry of new records
-  * create item records (Admin) by adding item IDs and descriptions into the Collection screen
-  * enter all metadata available into appropriate fields of catalogue, ensuring that all compulsory fields (marked with a red asterisk) have been filled
+  
+* **For manual entry of new records:**
+  * Create item records (Admin) by adding item IDs and descriptions into the Collection screen
+  * Enter all metadata available into appropriate fields of catalogue, ensuring that all compulsory fields (marked with a red asterisk) have been filled
 
 Label all tapes and tape cases to show PI, ensuring that no written information is covered up
 
@@ -80,7 +81,48 @@ Sort all tapes in numerical order in filing cabinet, or in dirty room if mould-a
 When tapes returned, note date in ‘tracking’ field of Item, Archive Information and tick ‘Tapes returned to depositor’ checkbox
 
 ### Photograph tape covers and casings to capture all handwritten metadata
+* Image files should be named with the same PI as the audio files
+* Archival copies of images should be in tiff (.tif) format, jpeg (.jpg) copies can be archived as additional access copies
+* The whole image should be captured, but in some cases it might be desirable to zoom in to the text to make sure it is fully legible in an additional image
+* Even blank surfaces should be photographed to ensure that no metadata has been overlooked
+* Include a ruler in the captured image to indicate scale
+* See the Appendix at the end of this document on guidelines for image capture and also the Austehc image capture guidelines in the 2011 PARADISEC Operations Manual for more details
+
 ### Prepare thapes for ingestion (Audio)
+* Assess tape condition – treat mouldy items according to the below procedure *(wear a mask and latex gloves as protective gear)*
+* Dehumidify in vacuum oven if necessary, with separate batches for mould-affected items
+* If necessary, advice regarding duration of treatment and temperature can be found at [NFSA](http://nfsa.gov.au/) and also within the IASA [TC-04 Guidelines](www.iasaweb.org/tc04/audio-preservation)
+* If mouldy remove any visible growths first with cotton bud or pad and solution of isopropyl and cetramide
+* If sticky shed is present no special prior treatment is needed
+* Clean and prepare for ingestion
+
+**Reel-to-reel** <br>
+* Repair or replace lead tape and damaged splices if necessary
+* Clean using slow spool and specialist equipment (cotton pads and isopropyl/cetramide solution); also clean flange (spool) separately
+* Perform a second slow spool to repack tape
+
+**Cassette and DAT** <br>
+* Replace splices if necessary (cassette)
+* Fast forward and rewind to minimise print-through (cassette) and to repack tape (cassette and DAT)
+* If mouldy, bag up separately, to avoid cross-contamination, shelve in PARADISEC's *Dirty Room* and minimise time in *Ingestion Room*, replay on designated *dirty* cassette machine
+
+**Information on devices and servicing**
+|  Format  |  Device  |  Date last tested  |
+|  ---  |  --- |  --- |
+|  Casette  | TASCAM 122 Mk II | July 2014  |
+|  Mouldy cassette  | Yamaha KX-W32  | July 2014  |
+|  Reel-toreel 15 ips  | Studer A810  | July 2014  |
+|  Reel-to-reel 7 1/2 ips | Studer A810  | July 2014  |
+|  Reel-to-reel 3 3/4 ips | Studer A810  | July 2014  |
+|  Reel-to-reel 7/8 ips  | No suitable in-house machine | as of October 2015  |
+|  Minidisk  |  Processed in Melbourne – Minidisk Transfer Editor |  |
+|  `*.wav files` | via network from Melbourne, ANU or APAC  |  2015  |
+|  DAT  |  Sony PCM 7040  |  July 2014  |
+|  CD  |  CD inspector on Audiocube 3  |  |
+
+
+
+
 
 ## Ingestion process
 
