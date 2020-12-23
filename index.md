@@ -22,20 +22,34 @@ Ph: +61 2 9351 1279, Fax: +61 2 9351 1287**
 ### Assess collection (Admin and PD)
 Assess whether material is suitable for accession (PD in consultation with steering committee). Suitability should consider the following conditions, though materials not meeting these criteria are not necessarily excluded from the collection:
 
+/* Custom styles to override MkDocs defaults and enhance theme */
+
+/* Unordered list <ul> symbols:
+ * - level 2 is hollow circle
+ * - level 3 is filled square
+ * - ul default is filled disc (bullet)
+ */
+ul ul {
+        list-style-type:  circle;
+}
+
+ul ul ul {
+        list-style-type:  square;
+}
 ***Rights*** <br>
 Does the depositor assert ownership of the material?
 * Are the rights in the material clearly specified?
 * Content criteria (assess against policy)
-    - is the material unique?
-    - is the country and language of the material known, and in the core area (non-Australian)?
-    - is there an alternative place for deposit of the recording?
-    - is the content of the recording in a high-risk language?
-    - is the format or recording medium at high-risk of obsolescence?
-    - institutional affiliation – give preference to consortium members
-    - ease of integration into our systems
-        * is data in a format we can handle (i.e. cassette, 1/4 inch reels)?
-        * if not, direct prospective depositor to suitable alternative facility
-    - consistency and adequacy of any metadata
+     * is the material unique?
+     * is the country and language of the material known, and in the core area (non-Australian)?
+     * is there an alternative place for deposit of the recording?
+     * is the content of the recording in a high-risk language?
+     * is the format or recording medium at high-risk of obsolescence?
+     * institutional affiliation – give preference to consortium members
+     * ease of integration into our systems
+            * is data in a format we can handle (i.e. cassette, 1/4 inch reels)?
+            * if not, direct prospective depositor to suitable alternative facility
+     * consistency and adequacy of any metadata
   
 If collection assessed as suitable, create a collection record in Nabu Assess tape condition and prepare material for transportation accordingly
 
