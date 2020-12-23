@@ -34,7 +34,7 @@ Does the depositor assert ownership of the material?
      * institutional affiliation – give preference to consortium members
      * ease of integration into our systems
           * is data in a format we can handle (i.e. cassette, 1/4 inch reels)?
-                 * if not, direct prospective depositor to suitable alternative facility
+          * if not, direct prospective depositor to suitable alternative facility
      * consistency and adequacy of any metadata
   
 If collection assessed as suitable, create a collection record in Nabu Assess tape condition and prepare material for transportation accordingly
