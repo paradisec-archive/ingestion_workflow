@@ -24,19 +24,18 @@ Assess whether material is suitable for accession (PD in consultation with steer
 
 ***Rights*** <br>
 Does the depositor assert ownership of the material?
-
 * Are the rights in the material clearly specified?
 * Content criteria (assess against policy)
-     - is the material unique?
-     - is the country and language of the material known, and in the core area (non-Australian)?
-     - is there an alternative place for deposit of the recording?
-     - is the content of the recording in a high-risk language?
-     - is the format or recording medium at high-risk of obsolescence?
-     - institutional affiliation – give preference to consortium members
-     - ease of integration into our systems
-            + is data in a format we can handle (i.e. cassette, 1/4 inch reels)?
+     * is the material unique?
+     * is the country and language of the material known, and in the core area (non-Australian)?
+     * is there an alternative place for deposit of the recording?
+     * is the content of the recording in a high-risk language?
+     * is the format or recording medium at high-risk of obsolescence?
+     * institutional affiliation – give preference to consortium members
+     * ease of integration into our systems
+          * is data in a format we can handle (i.e. cassette, 1/4 inch reels)?
                  * if not, direct prospective depositor to suitable alternative facility
-     - consistency and adequacy of any metadata
+     * consistency and adequacy of any metadata
   
 If collection assessed as suitable, create a collection record in Nabu Assess tape condition and prepare material for transportation accordingly
 
