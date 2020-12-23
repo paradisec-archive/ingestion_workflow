@@ -22,20 +22,6 @@ Ph: +61 2 9351 1279, Fax: +61 2 9351 1287**
 ### Assess collection (Admin and PD)
 Assess whether material is suitable for accession (PD in consultation with steering committee). Suitability should consider the following conditions, though materials not meeting these criteria are not necessarily excluded from the collection:
 
-/* Custom styles to override MkDocs defaults and enhance theme */
-
-/* Unordered list <ul> symbols:
- * - level 2 is hollow circle
- * - level 3 is filled square
- * - ul default is filled disc (bullet)
- */
-ul ul {
-        list-style-type:  circle;
-}
-
-ul ul ul {
-        list-style-type:  square;
-}
 ***Rights*** <br>
 Does the depositor assert ownership of the material?
 * Are the rights in the material clearly specified?
