@@ -184,7 +184,7 @@ When tapes returned, note date in ‘tracking’ field of Item, Archive Informat
 
 ### Ingestion of photographic slides
 
-The process for ingesting slides and digital image capture is documented in Paradisec Operations Manual 2011, and the appended Austehc manual [http://www.paradisec.org.au/downloads.html](http://www.paradisec.org.au/downloads.html). Contact [PARADISEC staff](mailto:admin@paradisec.org.au) for further details.
+The process for ingesting slides and digital image capture is documented in Paradisec Operations Manual 2011, and the appended Austech manual [http://www.paradisec.org.au/downloads.html](http://www.paradisec.org.au/downloads.html). Contact [PARADISEC staff](mailto:admin@paradisec.org.au) for further details.
 
 ### Digital text
 
