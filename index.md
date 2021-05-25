@@ -4,7 +4,6 @@
 🚧 This page is currently under construction, 2021-05-25 🚧
 </p>
 
-_(Last updated December 2020)_
 
 <p align="center">
   <img width="500" src="images/Reel-BW-gh-page.jpg" alt="PARADISEC-reel-to-reel">
